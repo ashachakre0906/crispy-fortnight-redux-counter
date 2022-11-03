@@ -7,13 +7,13 @@ function App() {
   const { counter } = useSelector(state => state.counter);
   return (
     <div className="App">
-      <h1>Hello World</h1>
+      <h2>Hello World</h2>
       <h1>Count: {counter}</h1>
       <button onClick={() => dispatch(increment())}>
-        Increment
+        Up
       </button>
       <button onClick={() => dispatch(decrement())}>
-        Decrement
+        Down
       </button>
     </div>
   );
